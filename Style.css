@@ -1,0 +1,155 @@
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+.p{
+    font-size: large;
+    padding-bottom: 8px;
+}
+
+#ul{
+    padding: 20px;
+    background-color: black;
+    background-size: 80%;
+    
+}
+
+
+body{
+    background-image: url("bk.jpeg");
+    padding: 50px;
+ }
+
+ .Img{
+     width: 600px;
+     height: 200px;
+ }
+
+ header{
+     text-align: center;
+     color: white;
+     background-color: black;
+     margin: 10px;
+     padding-bottom: 9px;
+     background-size: 80%;
+ }
+
+.menu{
+    text-align: center;
+    list-style: none;
+    background-color: black;
+    background-size: 80%;
+    
+ }
+
+ .links:visited{
+     color: white;
+  }
+
+li{
+     list-style: none;
+     display: inline-block;
+     padding:50px;
+     font-size:35px;
+ }
+
+ #ps4{
+    border: 5px solid white ;
+    border-radius: 20%;
+    padding: 30px; 
+    position: relative;
+     left:10%
+     
+ }
+
+ #xbox{
+    border: 5px solid white ;
+    border-radius: 20%;
+    padding: 30px;
+    position: relative;
+    left:25% ;
+ }
+
+ #nin{
+    border: 5px solid white ;
+    border-radius: 20%;
+    padding: 30px;
+    position: relative;
+    left:35% ;
+ }
+
+ #ps4:hover{
+    border: 5px solid white;
+    background-color: blue;
+ }
+
+ #xbox:hover{
+    background-color: green;
+ }
+
+ #nin:hover{
+    background-color: red;
+ }
+
+img{
+    width: 1235px;
+    height: 640px;
+}
+
+.img{
+    background-color: black;
+}
+
+#rd{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#rd2{
+    list-style: none;
+}
+
+@media screen and (max-width: 700px){
+    header{
+        text-align: center;
+        background-size: 80%;
+        
+    }
+    
+    .img{
+        width: 400px;
+        height: 250px;
+    }
+
+    .Img{
+        width: 300px;
+        height: 250px;
+
+    }
+
+    #ps4{
+        display: inline-block;
+        border-left: 100px;
+    
+
+    }
+
+    #xbox{
+        text-align: center;
+
+    }
+
+    #nin{
+        display: inline-block;
+        border-left: 20px;
+
+    }
+
+
+    #ul{
+        float: none;
+        position: relative;
+        text-align: left;
+    }
+}
